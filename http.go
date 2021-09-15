@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-
     http.HandleFunc("/", TimeHandler)
 		http.HandleFunc("/add", AddHandler)
 		http.HandleFunc("/entries", EntriesHandler)
